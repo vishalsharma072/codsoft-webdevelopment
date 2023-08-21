@@ -1,0 +1,93 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: whitesmoke;
+}
+
+.container{
+    width: 50%;
+    height: 52vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px black,
+                -12px -12px 20px lightblue;
+}
+
+.display #screen{
+    margin-bottom: 0.5em;
+    width: 99%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 0.5em;
+    background: #ecf0fe;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px gray,
+                inset -8px -8px 8px white;         
+}
+
+.btns{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button
+{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020,
+                -5px -5px 8px burlywood;
+}
+.row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                 inset -5px -5px 8px white;
+    background: #fff;
+}
+
+#eval {
+    background: lightskyblue;
+    color: white;
+    box-shadow: inset 5px 5px 8px skyblue,
+        inset -5px -5px 8px skyblue;
+}
+
+#eval:hover {
+    box-shadow: inset 5px 5px 8px darkcyan,
+        inset -5px -5px 8px darkcyan;
+}
+
+#ac {
+    background: lightgreen;
+    color: white;
+}
+
+#ac:hover {
+    box-shadow: inset 5px 5px 8px greenyellow,
+        inset -5px -5px 8px greenyellow;
+}
+#ce {
+    background: #ff3399;
+    color: #fff;
+}
+
+#ce:hover {
+    box-shadow: inset 5px 5px 8px #e60073,
+        inset -5px -5px 8px #ff3399;
+}
+
+
